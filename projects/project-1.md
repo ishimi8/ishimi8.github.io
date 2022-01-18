@@ -23,7 +23,7 @@ Here is some code that illustrates a part of this process:
 
 ```js
 if (value >= 16) {               // check if value is greater than or equal to 16
-HexDigit = intToHex(value/16);   // Hex Digit is equal to the value/16, keep on doing it until value is not greater than or equal to 16
+HexDigit = intToHex(value/16);   // Hex Digit is equal to the value/16, keep on doing it until value is not greater than or equal to 16 (intToHex is the name of the function).
 
 } 
 return HexDigit + digitToHex(value % 16); // print the last  value of the hexadecimals until it runs then print the HexDigit in front
