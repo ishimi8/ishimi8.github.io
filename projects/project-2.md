@@ -5,21 +5,17 @@ image: images/tictac.jpg
 title: Vacay
 permalink: projects/vacay
 # All dates must be YYYY-MM-DD format!
-date: 2015-12-15
+date: 2020-12-15
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+  - Java
+summary: A interactive simple game of inverse tic tac toe where you play against the computer. 
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
+Inverse tic tac toe is a simple game that I programmed for my final project for ICS 111. Inverse tic tac toe is played just like regular tic tac toe but you have to play it so the other player gets 3 in a row. 
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+This project introduced me the very bare bone basics of game design as well as practice with other java features such as draw, responsive and sensor functions as well as clicking events. This project was very tedious to design because for the win conditions as well as how the computer responds to our move, I tried to code every possibility that could happen. This led to a ridiculous amount of code that I had to write, but it did however work. 
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
+Later on the TA had showed the class a very optimal way of doing the assignment and it showed me that I should probably start thinking of smarter ways to code things rather than brute force it.
 
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
- 
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+For more information and a more basic implementation of tic tac toe in java : https://www.geeksforgeeks.org/tic-tac-toe-game-in-java/
+
