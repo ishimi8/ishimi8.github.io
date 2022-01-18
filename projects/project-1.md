@@ -2,43 +2,36 @@
 layout: project
 type: project
 image: images/numbers.JPG
-title: Micromouse
+title: Simple Integer to Hexadecimal
 permalink: projects/micromouse
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2015-10-15
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+  - Java
+summary: A simple program that converts integers to hexadecimals.
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
+  <img class="ui image" src="../images/conversion.jpg">
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+This is a basic encoding program that translates integer numbers to a hexadecimal endcoding. I was the only programmer in this project as it is a basic program which introudced me to hexadecimal encoding as well as how computers are capable of using other numerical systems to encode information. Hexadecimal and integers are basically the same until up to the number 10 where hexadecimal instead uses the letters of the alphabet starting with "A" to represent these values up to the number 15 which is represented as "F". As an example the number 1010 in hexadecimal is 3F2.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+Hexadecimal encoding works as follows, we first take the number and see if it matches up to any of the set hexadecimal values such as if the number is 10 then it is "A" or if the number is 11 then it is "B". However if the number is bigger than 15 which is the last hexadecimal value, then we need to divide the number by 16 which represents the 16 hexadecimal values from 0-F. We then keep dividing that number by 16 until we get a quotient of 0. We then take the remainders then match them to their hexadecimal encodings. Here is an example, 1010/16 = 63 remainder 2, 63/16 = 3 remainder 15, 3/16 = 0 remainder 3. Thus we have 3 remainder values of 2,15 and 3. Thus we take the latest remainder which is 3 and match it up to its hexadecimal counterpart which in this case is also 3. Then 15 which is F and finally 2 which is 2. Finally giving the hexadecimal value of 3F2.
 
-Here is some code that illustrates how we read values from the line sensors:
+Here is some code that illustrates a part of this process:
 
 ```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
+if (value >= 16) {               // check if value is greater than or equal to 16
+HexDigit = intToHex(value/16);   // Hex Digit is equal to the value/16, keep on doing it until value is not greater than or equal to 16
+
+} 
+return HexDigit + digitToHex(value % 16); // print the last  value of the hexadecimals until it runs then print the HexDigit in front
+  }.      // digitToHex is just a function that matches decimal values to hexadecimal values
+
 ```
 
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
+You can learn more at this website which shows a more in-depth explanation of conversions https://www.tutorialspoint.com/how-to-convert-decimal-to-hexadecimal.
 
 
 
