@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/tictac.jpeg
+image: images/tictactoe.jpg
 title: Vacay
 permalink: projects/vacay
 # All dates must be YYYY-MM-DD format!
