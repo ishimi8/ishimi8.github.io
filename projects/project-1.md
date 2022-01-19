@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/tictac.jpg
+image: images/tictac.JPG
 title: Inverse Tic Tac Toe
 permalink: projects/inversetictactoe
 # All dates must be YYYY-MM-DD format!
@@ -10,7 +10,7 @@ labels:
   - Robotics
   - Arduino
   - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+summary: A simple game of inverse tic tac toe. That in which you lose if you get 3 in a row.
 ---
 
 <div class="ui small rounded images">
