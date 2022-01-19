@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/tictac.jpg
-title: Inverse Tic Tac Toe
+title: Inverse-Tic-Tac-Toe
 permalink: projects/tictactoe
 # All dates must be YYYY-MM-DD format!
 date: 2020-12-15
