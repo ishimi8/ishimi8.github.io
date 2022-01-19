@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/alphabet.JPG
 title: Count Words
-permalink: projects/Substrings
+permalink: projects/CountWords
 # All dates must be YYYY-MM-DD format!
 date: 2020-010-12
 labels:
@@ -27,7 +27,7 @@ if (i>0 && letter != ' ' && character.charAt(i-1)==' ' || character.charAt(0)!='
           wordAmount++;                                                                               
         
         };
-        ```
+ ```
         
         For more info on this project as well as other ways to approach this problem: https://www.java67.com/2016/09/3-ways-to-count-words-in-java-string.html
 
