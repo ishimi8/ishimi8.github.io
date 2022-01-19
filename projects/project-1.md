@@ -21,4 +21,4 @@ This project introduced me the very bare bone basics of game design as well as p
 
 Later on the TA had showed the class a very optimal way of doing the assignment and it showed me that I should probably start thinking of smarter ways to code things rather than brute force it.
 
-For more information and a more basic implementation of tic tac toe in java : https://www.geeksforgeeks.org/tic-tac-toe-game-in-java/
+For more information about this project : https://github.com/ishimi8/Inverse-Tic-Tac-Toe
