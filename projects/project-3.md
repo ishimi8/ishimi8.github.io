@@ -11,8 +11,6 @@ labels:
 summary: A simple word counter program
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
-
 This is a program that I made while in ICS 111, it checks for the blank spaces between words to come up with a word count. However there are some conditions to consider such as if the user enters a blank as that would count as a word in this implementation. There is also the scenario that there is a blank space at the end which would also count as a word. Which is why these conditions can be covered in a if statement with an additional ||(or) and &&(and) operators. 
 
 This program had taught me to how to use multiple conditions in Java as well as how to think outside the box when approaching a problem. As I didn't first think of looking for blank spaces in a sentence to count words.
