@@ -19,12 +19,15 @@ The way this works is the program looks for empty spaces between the words and u
 
 Here is the main part of the code:
 
+```js
 
 if (i>0 && letter != ' ' && character.charAt(i-1)==' ' || character.charAt(0)!=' '&& i==0)  { 
         	//run if i is greater than 0, and if current character isn't blank but previous one is then add 1 to word amount
         	//check the first index at 0 and if it isn't blank then add 1 to word amount
           wordAmount++;                                                                               
         
-        }
+        };
+        ```
         
         For more info on this project as well as other ways to approach this problem: https://www.java67.com/2016/09/3-ways-to-count-words-in-java-string.html
+
