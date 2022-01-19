@@ -5,7 +5,7 @@ image: images/tictac.JPG
 title: Inverse Tic Tac Toe
 permalink: projects/inversetictactoe
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2020-012-01
 labels:
   - Robotics
   - Arduino
