@@ -5,7 +5,7 @@ image: images/alphabet.JPG
 title: Word Count
 permalink: projects/WordCount
 # All dates must be YYYY-MM-DD format!
-date: 2014-04-12
+date: 2020-9-12
 labels:
   - Lisp
   - GitHub
