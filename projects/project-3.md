@@ -35,7 +35,7 @@ Here is some code representing the main part of the program:
 
 
 
-For more info about learning how to implement a simple word count: https://www.java67.com/2016/09/3-ways-to-count-words-in-java-string.html
+For more info about this program: https://github.com/ishimi8/WordCount/blob/main/CountWords.java
 
 
 
