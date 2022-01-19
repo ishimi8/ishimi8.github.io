@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/numbers.JPG
 title: Simple Integer to Hexadecimal
-permalink: projects/micromouse
+permalink: projects/To Hexadecimal
 # All dates must be YYYY-MM-DD format!
 date: 2015-10-15
 labels:
