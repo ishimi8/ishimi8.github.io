@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/tictac.jpg
 title: Vacay
-permalink: projects/vacay
+permalink: projects/tictactoe
 # All dates must be YYYY-MM-DD format!
 date: 2020-12-15
 labels:
