@@ -1,16 +1,13 @@
 ---
 layout: project
 type: project
-image: images/numbers.png
+image: images/numbers.JPG
 title: Decimal to Hexadecimal
 permalink: projects/toHexadecimal
 # All dates must be YYYY-MM-DD format!
-date: 2015-12-15
+date: 2020-10-15
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
+  - Java
 summary: A responsive web application for travel planning that my team developed in ICS 415.
 ---
 This is a basic encoding program that translates integer numbers to a hexadecimal encoding. I was the only programmer in this project as it is a basic program which introduced me to hexadecimal encoding as well as how computers are capable of using other numerical systems to encode information. Hexadecimal and integers are basically the same until up to the number 10 where hexadecimal instead uses the letters of the alphabet starting with "A" to represent these values up to the number 15 which is represented as "F". As an example the number 1010 in hexadecimal is 3F2.
