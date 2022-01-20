@@ -28,5 +28,5 @@ return HexDigit + digitToHex(value % 16); // print the last  value of the hexade
 
 ```
 
-You can learn more here:  https://github.com/ishimi8/ToHexadecimal/blob/main/PrintHex.java
+You can learn more here:  https://github.com/ishimi8/ToHexadecimal.git
 
