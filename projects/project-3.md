@@ -35,7 +35,9 @@ Here is some code representing the main part of the program:
 
 
 
-For more info about this program: https://github.com/ishimi8/WordCount.git
+For more info about this program: <a href="https://github.com/ishimi8/WordCount"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
+
+
 
 
 
