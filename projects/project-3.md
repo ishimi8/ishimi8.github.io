@@ -35,7 +35,7 @@ Here is some code representing the main part of the program:
 
 
 
-For more info about this program: https://github.com/ishimi8/WordCount/blob/main/CountWords.java
+For more info about this program: https://github.com/ishimi8/WordCount.git
 
 
 
