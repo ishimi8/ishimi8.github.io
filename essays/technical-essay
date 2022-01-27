@@ -1,0 +1,27 @@
+---
+layout: essay
+type: essay
+title: Taking The Long Way Round
+# All dates must be YYYY-MM-DD format!
+date: 2022-01-26
+labels:
+  - Javascript
+  - StackOverflow
+  - Smart Questions
+---
+
+<img class="ui tiny right spaced image" src="../images/javascript.png">
+
+Asking questions is a pivotal skill in enhancing one's education but it can also become a hinderance if not asked correctly. This is especially relevant for software engineers as it is more important to understand why code works instead of asking for the solution. This also helps promote thinking rather than looking for an easy way out as well as helps someone to understand what is going wrong so that a software engineer can deal with the problem when it arises again.
+
+## A Smart Question
+
+https://stackoverflow.com/questions/444170/object-oriented-questions-in-javascript
+
+The question above represents a smart way of asking questions. The person asking poses the question on how to use object oriented programming in javascript. The asker first shows the various functions that they tried first as they experimented with prototype,function as well as objects. They then ask the difference between the functions they wrote with questions such as what the advantage of using the prototype property is compared to some other function. These questions demonstrate smart ways to ask questions as they first state their intended goal, the asker also presents their code in a neat manner, they showed a basic understanding of the functions they wrote meaning they did do their research and finally thorougly thanked all the people that answered their questions.
+
+## Not So Smart Question
+
+https://stackoverflow.com/questions/11954084/how-can-i-get-error-message
+
+This question demonstrates the wrong way to ask a question as while they do state their objective the question is very simple. The user simply asks how to get a error message in javascript, while innocent is too basic of a question to pose on a forum board such as Stack Overflow. The user also does not use formal language stating " I want to get error message " which shows the people asking this question that the person is simple minded. Finally the user doesn't thank the people answering the question as well as fails to see that this a question that is easily looked up on the internet.
