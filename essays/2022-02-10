@@ -1,0 +1,30 @@
+---
+layout: essay
+type: essay
+title: Go For The Green
+# All dates must be YYYY-MM-DD format!
+date: 2022-02-10
+labels:
+  - Javascript
+  - Coding Standards
+  - ESLint
+---
+
+<img class="ui tiny right spaced image" src="../images/question.jpg">
+
+Coding standards in the Computer Science World can be a pivotal learning tool in learning a new coding language. Even if it is sometimes forced upon people by their companies or teachers, there is no doubt that coding standards have a big part in all types of coding languages as well as their applications. Although it can be tedious, I believe that everyone should implement some sort of coding standards when writing their own code.
+
+## Benefits And Some Downfalls Of Using Coding Standards
+
+Coding standards help teach first-time learners correct syntax as well as cleaner code such that when a more experienced programmer looks at their code they can decipher it faster to help resolve problems or figure out what the program actually does. Helper programs such as ESLint also help to resolve simple syntax problems that some IDE's wouldn't catch. This happened to me back in high school when I was taking a test, the IDE I was using didn't throw an error for a missing mustache bracket and there I was questioning reality, wondering what was wrong with my code only realizing afterward when my teacher showed me that I was missing that bracket. Helper programs such as ESLint are instrumental in those situations and can help keep code clean as well as correct. The only downfall in my opinion is the tediousness of setting up new coding standards, adhering to them as well as nitpicking through all your code to finally get that green checkmark. It can get very annoying if you are used to using a certain form of coding standards only to have it switch to a new standard if a person moves companies. Although I believe simple keyboard shortcuts can be used to help solve these problems fairly quickly.
+
+
+## My Experience with ESLint
+
+I have had a very good experience with ESLint on IntelliJ as it is very easy to use, especially the fix current file option which just instantly formats your code to the coding standards of ESLint. Personally, however, it can get a bit distracting seeing a bunch of red lines on my code as my brain instinctively thinks that something is wrong with it when in reality I could have just not used a function or variable yet. Other than that the implementation of ESLint isn't too bad but having to say npm install every time for every new project can get just a bit tedious. The green checkmark is also not very hard to achieve as if your code is working and your syntax is perfect then it should be easy to get that green checkmark.
+
+## Final Thoughts
+
+While Coding Standards can be tedious and sometimes very annoying, they can help everyone in the computer science industry. Whether it be teachers looking over their student's code or a beginner programmer learning a new language, coding standards are a very important part of writing, learning, and understanding code. I believe that everyone should try to implement some sort of coding standards in their code as it can help you become a much better programmer as well as advance one's learning immensely.
+
+
